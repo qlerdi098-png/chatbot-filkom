@@ -1,0 +1,188 @@
+/* ======================================================
+   GLOBAL STYLING - Chatbot FILKOM (Home, Chat, Status)
+   ====================================================== */
+
+/* ====== RESET & BASE ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4f46e5 !important;
+}
+
+.navbar-brand i {
+  color: #4f46e5;
+}
+
+.nav-link {
+  color: #374151 !important;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4f46e5 !important;
+}
+
+.nav-link i {
+  color: #6b7280;
+}
+
+.nav-link:hover i {
+  color: #4f46e5;
+}
+
+/* ====== CONTAINER MAIN ====== */
+.container-main {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* ====== CARDS & SECTIONS ====== */
+.section-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-2px);
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4f46e5;
+}
+
+.section-description {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* ====== BUTTONS ====== */
+.btn-primary-custom {
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background: #4338ca;
+}
+
+.btn-secondary-custom {
+  background: #f3f4f6;
+  color: #4f46e5;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #e5e7eb;
+  transition: background 0.3s ease;
+}
+
+.btn-secondary-custom:hover {
+  background: #e5e7eb;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  background: #ffffff;
+  padding: 30px 0;
+  font-size: 13px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer h5 {
+  color: #4f46e5;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer i {
+  color: #4f46e5;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.footer small {
+  color: #9ca3af;
+}
+
+/* ====== UTILITIES ====== */
+.text-primary {
+  color: #4f46e5 !important;
+}
+
+.text-muted-custom {
+  color: #6b7280;
+}
+
+.bg-light-custom {
+  background: #f9fafb;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+  .section-card {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+  }
+}

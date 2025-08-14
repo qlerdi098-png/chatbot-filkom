@@ -1,0 +1,113 @@
+{% extends "base.html" %} {% block title %}{{ app_name }} - Home{% endblock %} {% block styles %}
+<style>
+  .hero-section {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    color: white;
+    padding: 80px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 25px;
+  }
+
+  .hero-section .btn-chat {
+    background: white;
+    color: #4f46e5;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .hero-section .btn-chat:hover {
+    background: #e5e7eb;
+    color: #3730a3;
+  }
+
+  .features-section {
+    margin-top: 50px;
+  }
+
+  .feature-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .feature-card i {
+    font-size: 40px;
+    color: #4f46e5;
+    margin-bottom: 15px;
+  }
+
+  .feature-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .feature-card p {
+    font-size: 14px;
+    color: #6b7280;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="hero-section">
+  <h1>Selamat Datang di {{ app_name }}</h1>
+  <p>AI Assistant untuk membantu mahasiswa mendapatkan informasi akademik secara cepat, akurat, dan interaktif.</p>
+  <a href="/chat" class="btn-chat"><i class="fas fa-comments me-2"></i>Mulai Chat Sekarang</a>
+</div>
+
+<div class="features-section">
+  <div class="row text-center">
+    <div class="col-md-3 mb-4">
+      <div class="feature-card">
+        <i class="fas fa-calendar-alt"></i>
+        <h5>Jadwal Perkuliahan</h5>
+        <p>Dapatkan informasi jadwal kuliah sesuai prodi, dosen, dan semester.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="feature-card">
+        <i class="fas fa-user-tie"></i>
+        <h5>Informasi Dosen</h5>
+        <p>Lihat nama dosen pengampu, NIDN, dan kontak dosen dengan cepat.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="feature-card">
+        <i class="fas fa-book"></i>
+        <h5>Syarat Akademik</h5>
+        <p>Ketahui syarat KRS, prasyarat mata kuliah, dan skripsi secara detail.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="feature-card">
+        <i class="fas fa-search"></i>
+        <h5>Semantic Search</h5>
+        <p>Pencarian informasi cerdas berbasis Semantic Search & Knowledge Base.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

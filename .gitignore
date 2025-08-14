@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+monitoring/logs/
+app.log
+error.log
+
+# Environment variables
+.env
+.env.example
+
+# Models (terlalu besar)
+*.pth
+*.pt
+*.pkl
+*.bin
+models/intent_classifier/best_model.pth
+models/ner_model/best_model.pt
+models/semantic_search/bm25_model.pkl
+models/semantic_search/faiss_index.bin
+models/semantic_search/embeddings.npy
+
+# Data files (terlalu besar)
+*.npy
+*.npz
+data/training_data/
+data/kb_processed.json
+data/response_templates.json
+
+# Cache directories
+.pytest_cache/
+app/__pycache__/
+app/api/__pycache__/
+app/core/__pycache__/
+app/services/__pycache__/
+app/models/__pycache__/
+
+# Docker (opsional jika tidak ingin push image)
+# .dockerignore
+
+# Jupyter Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Config files dengan sensitive data
+config/database.json
+config/api_keys.json
+
+# Frontend dependencies (jika ada)
+frontend/node_modules/
+frontend/static/css/*.map
+frontend/static/js/*.map
+
+# Testing
+.coverage
+.pytest_cache/
+tests/__pycache__/
+
+# Documentation build
+docs/_build/

@@ -1,0 +1,29 @@
+{
+  "id_to_intent": {
+    "0": "51",
+    "1": "53",
+    "2": "BATAS_SKS",
+    "3": "CLARIFICATION",
+    "4": "DOSEN_PENGAMPU",
+    "5": "GOODBYE",
+    "6": "GREETING",
+    "7": "HELP",
+    "8": "INFO_DOSEN_UMUM",
+    "9": "INFO_MATAKULIAH",
+    "10": "JADWAL_DOSEN",
+    "11": "JADWAL_HARI",
+    "12": "JADWAL_KRS",
+    "13": "JADWAL_MATAKULIAH",
+    "14": "JADWAL_PRODI",
+    "15": "JADWAL_RUANGAN",
+    "16": "JADWAL_SEMESTER",
+    "17": "KONTAK_DOSEN",
+    "18": "NIDN_DOSEN",
+    "19": "OUT_OF_SCOPE",
+    "20": "PANDUAN_KRS",
+    "21": "PRASYARAT_MATKUL",
+    "22": "PROSEDUR_CUTI",
+    "23": "SKS_MATKUL",
+    "24": "SYARAT_SKRIPSI"
+  }
+}
